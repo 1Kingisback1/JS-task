@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    font-size: 40px;
+}
+
+.but-back {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.but-back:hover {
+    text-decoration: underline;
+}

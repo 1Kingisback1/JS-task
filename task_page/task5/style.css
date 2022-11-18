@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.conteiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+input {
+    padding: 5px 8px;
+    background-color: inherit;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    background-color: rosybrown;
+    padding: 3px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.conteiner__foot {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#duplicateField {
+    color: darkslategray;
+}
+
+.but-back {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all .2s linear;
+
+    position: absolute;
+    top: 23%;
+    left: 20%;
+}
+.but-back:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+body {
+    display: block;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+#Oh {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .2s linear;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#Oh:hover {
+    border: 1px solid black;
+    
+}
+
+.but-back {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    transition: all .2s linear;
+
+}
+
+.but-back:hover {
+    text-decoration: underline;
+}
